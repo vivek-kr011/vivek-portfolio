@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-// import resumePDF from "../assets/pdf/Vivek_Resume.pdf";
 
-const resumePDF = "/Vivek_Resume.pdf";
+const resumePDF = "/Vivek_Kumar_Resume.pdf";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);

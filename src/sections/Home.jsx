@@ -1,7 +1,7 @@
 import { homeData } from "../data/portfolioData";
 import profileImg from "../assets/vivek.jpg";
 
-const resumePDF = "/Vivek_Resume.pdf";
+const resumePDF = "/Vivek_Kumar_Resume.pdf";
 
 
 const Home = () => {
