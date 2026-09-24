@@ -102,7 +102,7 @@ export const projects = [
     points: [
       "Designed and engineered a high-performance developer knowledge repository and collaborative technical ecosystem.",
     ],
-    tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+    tech: ["Node.js", "Express.js", "MongoDB", "React.js", "Tailwind CSS", "Docker"],
     github: "https://github.com/vivekkr620/StackMind",
     live: "https://stack-mind-dusky.vercel.app/",
     image: stackMind,
@@ -114,7 +114,7 @@ export const projects = [
     points: [
       "Architected a complete full-stack hotel listing discovery framework and property rental platform modeled on modern travel booking platforms.",
     ],
-    tech: ["Express.js", "Node.js", "MongoDB", "Cloudinary", "EJS Layouts"],
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Joi", "Cloudinary"],
     github: "https://github.com/vivekkr620/WanderLust",
     live: "#",
     image: wanderlust,
