@@ -37,8 +37,8 @@ export const experiences = [
     duration: "Jun 2025 - Sep 2025",
 
     points: [
-      "Developed and optimized responsive web interfaces using HTML5, CSS3, and JavaScript, enhancing user experience across mobile and desktop platforms for 10,000+ users.",
-      "Integrated RESTful APIs to facilitate seamless frontend-backend communication, improving data retrieval efficiency by 25%.",
+      "Built responsive, cross-browser interfaces using HTML5, CSS3, and JavaScript, ensuring full mobile responsiveness across the product's frontend.",
+      "Integrated RESTful APIs for frontend-backend communication and debugged API integration and data retrieval issues across the application.",
       "Independently delivered assigned development tasks within strict 3-month remote internship deadlines.",
       "Maintained code quality and version control using Git and GitHub.",
       "Contributed to UI/UX design discussions.",
