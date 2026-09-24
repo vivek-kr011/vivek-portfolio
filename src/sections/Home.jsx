@@ -1,7 +1,7 @@
 import { homeData } from "../data/portfolioData";
 import profileImg from "../assets/vivek.jpg";
 
-const resumePDF = "/Vivek_Kumar_Resume.pdf";
+const resumePDF = `${import.meta.env.BASE_URL}Vivek_Kumar_Resume.pdf`;
 
 
 const Home = () => {
@@ -41,8 +41,7 @@ const Home = () => {
             {/* UPDATED SECURE ANCHOR SPECIFICATION */}
             <a
               href={resumePDF}
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Vivek_Kumar_Resume.pdf"
               className="rounded-full border border-slate-700 bg-slate-900/60 px-8 py-4 text-slate-300 font-semibold transition-all duration-300 hover:border-cyan-400 hover:text-cyan-400 hover:-translate-y-1"
             >
               Download Resume
