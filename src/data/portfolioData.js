@@ -116,7 +116,7 @@ export const projects = [
     ],
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Joi", "Cloudinary"],
     github: "https://github.com/vivekkr620/WanderLust",
-    live: "#",
+    live: "https://wander-lust-two-silk.vercel.app/",
     image: wanderlust,
   },
 ];
