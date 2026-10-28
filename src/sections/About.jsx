@@ -33,11 +33,10 @@ const About = () => {
               </p>
 
               <p className="text-slate-400 leading-7 sm:leading-8 text-sm sm:text-base">
-                My goal is to build clean, scalable and responsive web
-                applications with modern UI/UX while writing maintainable code.
-                I enjoy solving real-world problems through technology and
-                continuously learning new tools to improve my development
-                workflow.
+                My goal is to create clean, scalable, and responsive
+                applications with modern UI/UX and maintainable code. I enjoy
+                solving real-world problems through technology and continuously
+                learning new tools to improve my development workflow.
               </p>
             </div>
           </div>
