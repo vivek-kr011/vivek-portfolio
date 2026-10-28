@@ -1,4 +1,3 @@
-
 import { experiences } from "../data/portfolioData";
 import {
   FiAward,
@@ -11,6 +10,7 @@ import {
 import cctCertificate from "../assets/pdf/CCT-internship.pdf";
 import sihCertificate from "../assets/pdf/SIH-Certificate.jpeg"
 import bsercCertificate from "../assets/pdf/BSERC-Offer-Letter.pdf";
+import tenCertificate from "../assets/pdf/TEN_SDE_LOC.pdf";
 
 const Experience = () => {
   const handleDownload = async (e, expId, expCompany) => {
@@ -18,22 +18,22 @@ const Experience = () => {
 
     // ID verification map
     let targetAssetFile = null;
-    if (expId === 1) targetAssetFile = cctCertificate;
-    if (expId === 2) targetAssetFile = sihCertificate;
-    if (expId === 3) targetAssetFile = bsercCertificate;
-
+    if (expId === 1) targetAssetFile = tenCertificate;
+    if (expId === 2) targetAssetFile = bsercCertificate;
+    if (expId === 3) targetAssetFile = cctCertificate;
+    if (expId === 4) targetAssetFile = sihCertificate;
     if (!targetAssetFile) return;
 
     try {
       const response = await fetch(targetAssetFile);
       const blob = await response.blob();
 
-      const blobUrl = window.URL.createObjectUrl(blob);
+      const blobUrl = window.URL.createObjectURL(blob);
       const tempLink = document.createElement("a");
       tempLink.href = blobUrl;
 
       const formattedCompanyName = expCompany.replace(/\s+/g, "_");
-      tempLink.download = `Vivek_Kumar_${formattedCompanyName}_Certificate.${expId === 2 ? 'jpeg' : 'pdf'}`;
+      tempLink.download = `Vivek_Kumar_${formattedCompanyName}_Certificate.${expId === 4 ? "jpeg" : "pdf"}`;
       document.body.appendChild(tempLink);
       tempLink.click();
 
