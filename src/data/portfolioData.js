@@ -1,10 +1,11 @@
 import resqAI from "../assets/project-images/resq-ai.png";
 import stackMind from "../assets/project-images/stack-mind.png";
 import wanderlust from "../assets/project-images/wanderlust.png";
+import tenTicketBooking from "../assets/project-images/TEN_Ticket_Booking_System.png";
 import cctCertificate from "../assets/pdf/CCT-internship.pdf";
-import sihCertificate from "../assets/pdf/SIH-Certificate.jpeg"
+import sihCertificate from "../assets/pdf/SIH-Certificate.jpeg";
 import bsercCertificate from "../assets/pdf/BSERC-Offer-Letter.pdf";
-
+import tenCertificate from "../assets/pdf/TEN_SDE_LOC.pdf";
 
 export const homeData = {
   welcomeTag: "Hi there, i am ",
@@ -18,48 +19,35 @@ export const homeData = {
 
 export const aboutData = {
   subHeading:
-    "Building web experiencecs with focus on design and optimization.",
+    "Building thoughtful digital experiences with a focus on performance and usability.",
   description:
-    "I am a proactive Full-Stack developer who loves turning design challenges into clean, accessible, and high-performance user interfaces. I believe in writing well-structured code and utilizing utility-first configurations.",
+    "I am a proactive full-stack developer who enjoys turning complex ideas into clean, accessible, and high-performance web applications. I work across frontend and backend technologies to build reliable products with intuitive user experiences.",
   stats: [
-    { label: "Experience", value: "3 Month Internship" },
+    { label: "Internship Experience", value: "3 Months+" },
     { label: "Projects Completed", value: "3" },
-    { label: "Open Source Contributions" },
+    { label: "Open Source Contributions", value: "Growing" },
   ],
 };
 
 export const experiences = [
   {
     id: 1,
-    role: "Frontend Developer Intern",
-    company: "CloudCredits Technologies Pvt. Ltd.",
-    location: "Jaipur, Rajasthan, India (Remote)",
-    duration: "Jun 2025 - Sep 2025",
+    role: "Software Development Engineer Intern",
+    company: "The Entrepreneurship Network (TEN)",
+    location: "Remote",
+    duration: "Aug 2026 - Oct 2026",
 
     points: [
-      "Built responsive, cross-browser interfaces using HTML5, CSS3, and JavaScript, ensuring full mobile responsiveness across the product's frontend.",
-      "Integrated RESTful APIs for frontend-backend communication and debugged API integration and data retrieval issues across the application.",
-      "Independently delivered assigned development tasks within strict 3-month remote internship deadlines.",
-      "Maintained code quality and version control using Git and GitHub.",
-      "Contributed to UI/UX design discussions.",
+      "Architected a 4-layer RESTful backend (Routes → Controllers → Models → MongoDB) using Node.js, Express.js, and Mongoose, delivering 20+ REST API endpoints for authentication, train, and station management.",
+      "Engineered train management APIs with MongoDB ObjectId validation, station existence checks, duplicate train-number prevention, source/destination validation, and structured HTTP error handling using status codes 400, 404, and 409.",
+      "Designed 6 Mongoose data models and document relationships across users, trains, stations, schedules, bookings, and payments, using MongoDB references and populate() to retrieve associated entities.",
+      "Implemented JWT-based authentication with bcrypt password hashing, credential verification, Bearer-token validation, and protected API middleware, with USER and ADMIN role-based access control.",
     ],
-    certificateUrl: cctCertificate,
+    certificateUrl: tenCertificate,
   },
 
   {
     id: 2,
-    role: "2x SIH Internal Round Winner & Lead",
-    company: "Smart India Hackathon (Jagannath University)",
-    location: "Jaipur, India",
-    duration: "2024 - 2025",
-
-    points: ["Led cross-functional teams.", "Demonstrated frontend expertise."],
-
-    certificateUrl: sihCertificate,
-  },
-
-  {
-    id: 3,
     role: "Def-Space Intern",
     company: "Bharat Space Education Research Center",
     location: "New Delhi, India",
@@ -74,6 +62,35 @@ export const experiences = [
     ],
 
     certificateUrl: bsercCertificate,
+  },
+
+  {
+    id: 3,
+    role: "Frontend Developer Intern",
+    company: "CloudCredits Technologies Pvt. Ltd.",
+    location: "Jaipur, Rajasthan, India (Remote)",
+    duration: "June 2025 - September 2025",
+
+    points: [
+      "Built responsive, cross-browser interfaces using HTML5, CSS3, and JavaScript, ensuring full mobile responsiveness across the product's frontend.",
+      "Integrated RESTful APIs for frontend-backend communication and debugged API integration and data retrieval issues across the application.",
+      "Independently delivered assigned development tasks within strict 3-month remote internship deadlines.",
+      "Maintained code quality and version control using Git and GitHub.",
+      "Contributed to UI/UX design discussions.",
+    ],
+    certificateUrl: cctCertificate,
+  },
+
+  {
+    id: 4,
+    role: "2x SIH Internal Round Winner & Lead",
+    company: "Smart India Hackathon (Jagannath University)",
+    location: "Jaipur, India",
+    duration: "2024 - 2025",
+
+    points: ["Led cross-functional teams.", "Demonstrated frontend expertise."],
+
+    certificateUrl: sihCertificate,
   },
 ];
 
@@ -102,7 +119,14 @@ export const projects = [
     points: [
       "Designed and engineered a high-performance developer knowledge repository and collaborative technical ecosystem.",
     ],
-    tech: ["Node.js", "Express.js", "MongoDB", "React.js", "Tailwind CSS", "Docker"],
+    tech: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "React.js",
+      "Tailwind CSS",
+      "Docker",
+    ],
     github: "https://github.com/vivekkr620/StackMind",
     live: "https://stack-mind-dusky.vercel.app/",
     image: stackMind,
@@ -112,12 +136,33 @@ export const projects = [
     id: 3,
     title: "WanderLust",
     points: [
-      "Architected a complete full-stack hotel listing discovery framework and property rental platform modeled on modern travel booking platforms.",
+      "Built a full-stack accommodation marketplace with React, Node.js, Express, MongoDB, Cloudinary, JWT authentication, and Socket.IO for property listings, bookings, reviews, and real-time booking updates.",
     ],
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Joi", "Cloudinary"],
-    github: "https://github.com/vivekkr620/WanderLust",
+    tech: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Joi",
+      "Cloudinary",
+    ],
+    github: "https://github.com/vivek-kr011/WanderLust",
     live: "https://wander-lust-two-silk.vercel.app/",
     image: wanderlust,
+  },
+
+  {
+    id: 4,
+    title: "TEN Railway Ticket Booking Platform",
+    points: [
+      "Architected a 4-layer RESTful backend using Node.js, Express.js, Mongoose, and MongoDB, delivering 20+ REST API endpoints for authentication, train, and station management.",
+    ],
+    tech: ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "bcrypt"],
+    github:
+      "https://github.com/vivek-kr011/ten-railway-ticket-booking-platform",
+    live: "#",
+    image: tenTicketBooking,
   },
 ];
 
