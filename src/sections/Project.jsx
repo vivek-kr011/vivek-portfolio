@@ -63,13 +63,15 @@ const Projects = () => {
                 </h3>
 
                 {/* Image */}
-                <div className="mb-5 h-56 overflow-hidden rounded-2xl border border-slate-700 bg-slate-900 p-2">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-contain rounded-xl transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
+                {project.image && (
+                  <div className="mb-5 h-56 overflow-hidden rounded-2xl border border-slate-700 bg-slate-900 p-2">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-contain rounded-xl transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                )}
 
                 {/* Description */}
                 <ul className="flex-grow space-y-2.5">
