@@ -8,11 +8,11 @@ import bsercCertificate from "../assets/pdf/BSERC-Offer-Letter.pdf";
 import tenCertificate from "../assets/pdf/TEN_SDE_LOC.pdf";
 
 export const homeData = {
-  welcomeTag: "Hi there, i am ",
+  welcomeTag: "Hi there, I am",
   name: "Vivek Kumar",
-  title: "I craft seamless web experiences.",
+  title: "Full-Stack Developer & AI Integrator",
   subtitle:
-    "I am a focused frontend developer specializing in building modern web applications. Currently, I love building responsive products using React 19 and clean utility-first styling.",
+    "B.Tech CSE student (2027) and Full-Stack Developer skilled in React, Node.js, Express, and MongoDB. I build reliable web products, secure REST APIs, and AI-powered conversational experiences.",
   ctaWork: "View My Work",
   ctaConnect: "Let's Connect",
 };
@@ -195,7 +195,7 @@ export const educationData = {
   field: "Computer Science and Engineering",
   timeline: "2023 - 2027",
   location: "Jaipur, Rajasthan, India",
-  metrics: "SGPA: 7.23 / 10.00 (5th Semester)",
+  metrics: "SGPA: 7.64 (VIth Semester)",
   highlights: [
     "Focusing on Core Data Structures, Algorithms, Full-Stack Web Architecture, and Applied AI paradigms.",
     "Actively involved in technical hackathons and institutional R&D ecosystem implementations.",
