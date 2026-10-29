@@ -69,7 +69,7 @@ const Home = () => {
             {/* Role Title Badge */}
             <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 rounded-full border border-cyan-500/20 bg-slate-900/80 px-6 py-3 backdrop-blur-xl">
               <span className="font-mono text-sm text-cyan-400">
-                Full Stack Developer
+                Full-Stack Developer | SDE | AI Integration
               </span>
             </div>
           </div>
